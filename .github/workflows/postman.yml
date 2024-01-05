@@ -2,7 +2,7 @@ name: Postman-Tests
 
 on: [push]
 jobs:
-  run Postman-Tests:
+  run-Postman-Tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
